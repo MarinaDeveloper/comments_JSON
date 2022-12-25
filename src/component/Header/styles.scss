@@ -1,0 +1,27 @@
+.main_header {
+    padding: 40px 0;
+    border-bottom: 2px solid rgba(250, 250, 250, 0.1);
+    .block_header {
+        display: flex;
+        justify-content: space-between;
+        .title {
+            font-size: 24px;
+            color: #34C759;
+            font-weight: 900;
+            letter-spacing: 0.1em;
+        }
+        nav {
+            a {
+                margin-left: 40px;
+                font-size: 18px;
+                font-weight: 700;
+                &.active {
+                    color: #34C759;
+                }
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
